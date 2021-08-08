@@ -1,0 +1,105 @@
+body {
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    color:mediumaquamarine
+}
+
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+ 
+.content {
+    width: 100%;
+    height: 25%;
+    display: block;
+}
+
+.body {
+    display: flex;
+    height: 60%;
+}
+
+.leftSideBar, .rightSideBar {
+    width: 50%;
+    height: 100%;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 40px
+}
+
+
+#ddayText {
+    float: right;
+    color:cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span#clock {
+    font-size: 170px;
+    font-weight: 500;
+}
+
+span#result {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:transparent;
+    border-bottom: 3px solid whitesmoke;
+    color : white;
+}
+
+input::placeholder {
+    color : black;
+    font-weight: bold;
+}
+
+#name {
+    border-bottom: 3px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+    font-size: 20px;
+}
+
+button {
+    margin-left: 15px;
+    background-color:transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+button:hover {
+    color: cadetblue;
+    background-color: whitesmoke;
+}
